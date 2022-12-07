@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif, verdana;
+    height: 100vh;
+}
+
+.logo {
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    background-color: #222;
+}
+
+.posicao {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.box-formulario {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    width: 60%;
+    margin: 4.5rem 0;
+    box-shadow: 0 0 20px 5px gray;
+}
+
+.titulo {
+    margin: 25px 10px;
+}
+
+.formulario {
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.div-input input {
+    border-color: #222;
+}
+
+.posicao-formulario {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 10%;
+}
+
+.botao {
+    font-size: 1.5rem;
+    margin: 5% 5%;
+}
+
+.botao button {
+    color: #fff;
+    background-color: #222;
+    padding: 1% 1%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #222;
+}
+
+.icons-posicao {
+    width: 100%;
+    font-size: 3rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons a {
+    margin: 0 1%;
+    color: lightgray;
+}
+
+div.error-message {
+    color: #f00;
+    font-weight: bold;
+    padding-top: 4px;
+}
